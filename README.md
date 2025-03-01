@@ -1,8 +1,13 @@
 # Webdesign-Projektarbeit-Python
 
 ## Überblick
+
 - Projektname: Klippy 5
 - Team: Marcel Spahr alias "Märsu", Pascal Aebischer alias "Päscu"
+- Tools:
+  - OneDrive als Dokumentenablage
+  - Kommunikation mittels Discord
+  - Planung mittels "Miro Board"
 - Beschreibung des Projekts:
   - Assistenz WebAPP für interne Mitarbeiter
   - Mittels Flask & Python
@@ -16,6 +21,7 @@
     - Wetter
 
 ## Aufgabenverteilung
+
 - **Design & Logo**: Märsu
 - **Programming Frontend**: Märsu & Päscu
 - **Programming Backend**: Päscu (Flask & Python)
@@ -23,9 +29,11 @@
 ## Iterativer Projektplan vom 4. März 2025 bis zum 25. April 2025
 
 ### Minimalziel – Detailliert
+
 Ziel: Bereitstellung einer funktionalen WebApp mit grundlegenden Funktionen, die den täglichen Bedarf der Mitarbeiter abdeckt.
 
 ### Iteration 1: Grundgerüst und Benutzerlogin
+
 - **Zeitraum:** 4. März 2025 – 14. März 2025 (1,5 Wochen)
 - **Aufgaben:**
   - Einrichtung der Entwicklungsumgebung mit Flask und Python
@@ -35,6 +43,7 @@ Ziel: Bereitstellung einer funktionalen WebApp mit grundlegenden Funktionen, die
   - Testen und Validieren des Loginsystems
 
 ### Iteration 2: Kalender und Taskplanner
+
 - **Zeitraum:** 17. März 2025 – 28. März 2025 (2 Wochen)
 - **Aufgaben:**
   - Entwicklung eines einfachen Kalenders mit Wochenüberblick
@@ -44,6 +53,7 @@ Ziel: Bereitstellung einer funktionalen WebApp mit grundlegenden Funktionen, die
   - Durchführung von Usability-Tests und Feedback-Schleifen
 
 ### Iteration 3: Kontakte und Chatfunktion
+
 - **Zeitraum:** 31. März 2025 – 4. April 2025 (1 Woche)
 - **Aufgaben:**
   - Entwicklung eines Kontaktmanagementsystems zur Speicherung und Verwaltung von Kontakten
@@ -57,6 +67,7 @@ Ziel: Bereitstellung einer funktionalen WebApp mit grundlegenden Funktionen, die
 **Ziel:** Erweiterung der WebApp um zusätzliche Funktionen und Optimierungen basierend auf Benutzerfeedback
 
 ### Iteration 4: Templates und Wetter
+
 - **Zeitraum:** 7. April 2025 – 11. April 2025 (1 Woche)
 - **Aufgaben:**
   - Entwicklung eines Moduls für Templates wie z.B. Briefvorlagen
@@ -65,6 +76,7 @@ Ziel: Bereitstellung einer funktionalen WebApp mit grundlegenden Funktionen, die
   - Durchführung von Tests zur Sicherstellung der Funktionalität
 
 ### Iteration 5: Performance-Optimierung und Sicherheit
+
 - **Zeitraum:** 14. April 2025 – 18. April 2025 (1 Woche)
 - **Aufgaben:**
   - Optimierung der WebApp-Performance durch Code-Refactoring und Caching-Strategien
@@ -73,6 +85,7 @@ Ziel: Bereitstellung einer funktionalen WebApp mit grundlegenden Funktionen, die
   - Einholen von weiterem Benutzerfeedback zur Verbesserung der App
 
 ### Iteration 6: Erweiterte Funktionen und Integration
+
 - **Zeitraum:** 21. April 2025 – 23. April 2025 (0,5 Wochen)
 - **Aufgaben:**
   - Integration von erweiterten Funktionen basierend auf Benutzeranforderungen
@@ -81,6 +94,7 @@ Ziel: Bereitstellung einer funktionalen WebApp mit grundlegenden Funktionen, die
   - Abschließende Tests und Vorbereitung für den vollständigen Rollout
 
 ### Abschluss und Rollout
+
 - **Zeitraum:** 24. April 2025 – 25. April 2025 (0,5 Wochen)
 - **Aufgaben:**
   - Zusammenfassung aller Änderungen und Erstellung einer finalen Dokumentation
@@ -90,6 +104,7 @@ Ziel: Bereitstellung einer funktionalen WebApp mit grundlegenden Funktionen, die
 ## Requirements
 
 ### Tested with Windows 11
+
 - Visual Studio Code (https://code.visualstudio.com/Download)
 - Git (https://git-scm.com/downloads)
 
@@ -100,6 +115,7 @@ Ziel: Bereitstellung einer funktionalen WebApp mit grundlegenden Funktionen, die
 ## Journal
 
 ### 01.03.2025
+
 - Project topic discussion
 - Git repository created
 - First version of README
