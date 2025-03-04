@@ -7,7 +7,7 @@
 - Tools:
   - OneDrive als Dokumentenablage
   - Kommunikation mittels Discord
-  - Planung mittels "Miro Board"
+  - Planung mittels "Miro-Board"
 - Beschreibung des Projekts:
   - Assistenz WebAPP für interne Mitarbeiter
   - Mittels Flask & Python
