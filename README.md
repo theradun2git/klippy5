@@ -1,121 +1,112 @@
-# Webdesign-Projektarbeit-Python
+# Projektarbeit-Python
 
 ## Überblick
 
-- Projektname: Klippy 5
-- Team: Marcel Spahr alias "Märsu", Pascal Aebischer alias "Päscu"
-- Tools:
+- **Projektname**: Klippy 5
+- **Team**: Marcel Spahr alias "Märsu", Pascal Aebischer alias "Päscu"
+- **Verwendete Tools**:
   - OneDrive als Dokumentenablage
   - Kommunikation mittels Discord
   - Planung mittels "Miro Board"
-- Beschreibung des Projekts:
-  - Assistenz WebAPP für interne Mitarbeiter
-  - Mittels Flask & Python
-  - Funktionen
-    - Benutzerlogin
-    - Kalender mit grobem Wochenüberblick
-    - Taskplanner
-    - Kontakte
-    - Chatfunktion
-    - Templates wie z.B. Briefvorlagen
+  - Visual Studio Code (Entwicklungsumgebung)
+  - Pyton als Programmiersprache
+- **Beschreibung des Projekts**:
+  - Assistenz "Python Applikation" für interne Mitarbeiter
+  - Grundfunktionen
+    - Notizen
+    - Kalender
+    - To do (mit allfälligem Reminder)
+  - Erweiterte Funktionen (geplant)
+    - Work Life Balance
+    - Frag Klippy (Bot)
     - Wetter
+    - Verknüpfung To Do Liste mit Kalender
+    - Easter Egg
+    - Reminder auf Hauptseite
+- **Weitere Dokumente:**
+  - [Konzept](https://github.com/theradun2git/klippy5)
+  - [Installation Manual](https://github.com/theradun2git/klippy5)
+  - [Präsentation](https://github.com/theradun2git/klippy5)
 
 ## Aufgabenverteilung
-
 - **Design & Logo**: Märsu
-- **Programming Frontend**: Märsu & Päscu
-- **Programming Backend**: Päscu (Flask & Python)
+- **Entwicklung**: Päscu
 
 ## Iterativer Projektplan vom 4. März 2025 bis zum 25. April 2025
 
 ### Minimalziel – Detailliert
 
-Ziel: Bereitstellung einer funktionalen WebApp mit grundlegenden Funktionen, die den täglichen Bedarf der Mitarbeiter abdeckt.
+Bereitstellung einer funktionalen Python-Applikation mit Tkinter, die grundlegende Funktionen wie Notizen, Kalender und Todo-Liste für den täglichen Bedarf der Internen Mitarbeiter abdeckt.
 
-### Iteration 1: Grundgerüst und Benutzerlogin
+### Iteration 1: Grundgerüst
 
-- **Zeitraum:** 4. März 2025 – 14. März 2025 (1,5 Wochen)
-- **Aufgaben:**
-  - Einrichtung der Entwicklungsumgebung mit Flask und Python
-  - Erstellung des Grundgerüsts der WebApp
-  - Implementierung des Benutzerlogins mit Authentifizierung und Autorisierung
-  - Einrichtung einer Datenbank (z.B. SQLite oder PostgreSQL) zur Speicherung von Benutzerdaten
-  - Testen und Validieren des Loginsystems
+- **Zeitraum**: 4. März 2025 – 14. März 2025
+- **Aufgaben**:
+  - Einrichtung der Entwicklungsumgebung für Python und Tkinter
+  - Erstellung des Grundgerüsts für die Applikation mit Tkinter
+  - Implementierung der Notizfunktion mit grundlegender Speicherfunktionalität
+  - Testen und Validieren der Notizfunktion
 
-### Iteration 2: Kalender und Taskplanner
+### Iteration 2: Kalender und Todo-Liste
 
-- **Zeitraum:** 17. März 2025 – 28. März 2025 (2 Wochen)
-- **Aufgaben:**
-  - Entwicklung eines einfachen Kalenders mit Wochenüberblick
-  - Implementierung eines Taskplanners zur Verwaltung von Aufgaben
-  - Integration von Kalender- und Taskplanner-Funktionen in die Benutzeroberfläche
+- **Zeitraum**: 17. März 2025 – 28. März 2025
+- **Aufgaben**:
+  - Entwicklung eines einfachen Kalenders mit Monats- und Wochenansicht
+  - Implementierung einer Todo-Liste zur Verwaltung von Aufgaben
+  - Integration von Kalender- und Todo-Funktionen in die Tkinter-Benutzeroberfläche
   - Sicherstellen der Datenpersistenz für Kalender- und Aufgabeninformationen
   - Durchführung von Usability-Tests und Feedback-Schleifen
 
-### Iteration 3: Kontakte und Chatfunktion
+### Iteration 3: Erweiterte Grundfunktionen
 
-- **Zeitraum:** 31. März 2025 – 4. April 2025 (1 Woche)
-- **Aufgaben:**
-  - Entwicklung eines Kontaktmanagementsystems zur Speicherung und Verwaltung von Kontakten
-  - Implementierung einer einfachen Chatfunktion für die interne Kommunikation
-  - Integration von Kontakten und Chat in die bestehende Benutzeroberfläche
-  - Sicherstellung der Datensicherheit und Verschlüsselung bei der Chatkommunikation
-  - Testen der neuen Funktionen und Einholen von Benutzerfeedback
+- **Zeitraum**: 31. März 2025 – 4. April 2025
+- **Aufgaben**:
+  - Verbesserung der Benutzeroberfläche und Optimierung der Nutzererfahrung
+  - Sicherstellung der Stabilität und Fehlerfreiheit der Grundfunktionen
+  - Vorbereitung auf die Implementierung erweiterter Funktionen
 
-## Erweiterte Ziele – Grob (Idee von Iterationen)
+### Iteration 4: Work-Life-Balance und Frag Klippy
 
-**Ziel:** Erweiterung der WebApp um zusätzliche Funktionen und Optimierungen basierend auf Benutzerfeedback
-
-### Iteration 4: Templates und Wetter
-
-- **Zeitraum:** 7. April 2025 – 11. April 2025 (1 Woche)
-- **Aufgaben:**
-  - Entwicklung eines Moduls für Templates wie z.B. Briefvorlagen
-  - Integration einer Wetterfunktion, die aktuelle Wetterdaten anzeigt
+- **Zeitraum**: 7. April 2025 – 11. April 2025
+- **Aufgaben**:
+  - Entwicklung eines Moduls zur Unterstützung der Work-Life-Balance
+  - Implementierung der Frag Klippy-Funktion zur Beantwortung von Benutzerfragen
   - Optimierung der Benutzeroberfläche für eine bessere Nutzererfahrung
   - Durchführung von Tests zur Sicherstellung der Funktionalität
 
-### Iteration 5: Performance-Optimierung und Sicherheit
+### Iteration 5: Wetter und Todo-Kalender-Verknüpfung
 
-- **Zeitraum:** 14. April 2025 – 18. April 2025 (1 Woche)
-- **Aufgaben:**
-  - Optimierung der WebApp-Performance durch Code-Refactoring und Caching-Strategien
-  - Implementierung zusätzlicher Sicherheitsmaßnahmen (z.B. Schutz vor CSRF, XSS)
-  - Durchführung von Lasttests und Sicherheitsüberprüfungen
-  - Einholen von weiterem Benutzerfeedback zur Verbesserung der App
+- **Zeitraum**: 14. April 2025 – 18. April 2025
+- **Aufgaben**:
+  - Integration einer Wetterfunktion, die aktuelle Wetterdaten anzeigt
+  - Verknüpfung der Todo-Liste mit dem Kalender für eine bessere Planung
+  - Durchführung von Tests zur Sicherstellung der Funktionalität
 
-### Iteration 6: Erweiterte Funktionen und Integration
+### Iteration 6: Easter Egg und Reminder
 
-- **Zeitraum:** 21. April 2025 – 23. April 2025 (0,5 Wochen)
-- **Aufgaben:**
-  - Integration von erweiterten Funktionen basierend auf Benutzeranforderungen
-  - Mögliche Integration mit anderen internen Systemen oder Tools
-  - Verbesserung der mobilen Benutzerfreundlichkeit und Responsiveness
+- **Zeitraum**: 21. April 2025 – 23. April 2025
+- **Aufgaben**:
+  - Implementierung eines Easter Eggs zur Verbesserung der Benutzererfahrung
+  - Hinzufügen eines Reminders auf der Hauptseite
   - Abschließende Tests und Vorbereitung für den vollständigen Rollout
 
 ### Abschluss und Rollout
 
-- **Zeitraum:** 24. April 2025 – 25. April 2025 (0,5 Wochen)
+- **Zeitraum:** 24. April 2025 – 25. April 2025
 - **Aufgaben:**
   - Zusammenfassung aller Änderungen und Erstellung einer finalen Dokumentation
-  - Schulung der Mitarbeiter zur Nutzung der neuen Funktionen
-  - Offizieller Rollout der WebApp für alle internen Mitarbeiter
+  - Allfällige Schulung der Benutzer zur Nutzung der neuen Funktionen
+  - Offizieller Rollout der Applikation für alle internen Mitarbeiter
 
-## Requirements
+### Upload Projektunterlagen
 
-### Tested with Windows 11
+- **Zeitraum:** 25. April 2025
+- **Aufgaben:**
+  - Unterlagen nochmals auf Fehler prüfen und finalisieren
+  - Hochladen des Codes, des iterativen Projektplans, des Konzepts und der Präsentation auf GitHub
 
-- Visual Studio Code (https://code.visualstudio.com/Download)
-- Git (https://git-scm.com/downloads)
+### Präsentation vor Ort
 
-### Recommended extensions in Visual Studio Code
-
-## Configuration "Flask"- APP
-
-## Journal
-
-### 01.03.2025
-
-- Project topic discussion
-- Git repository created
-- First version of README
+- **Zeitraum:** 26. April 2025
+- **Aufgaben:**
+  - Durchführung einer Live-Demo der Applikation vor Ort
