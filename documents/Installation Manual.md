@@ -26,7 +26,7 @@ code .
 ```
 
 ### Mandatory extensions in Python itself via PIP installation
-```pip install Pillow``` (für "from PIL import Image, ImageTk")
+```pip install Pillow``` (for "from PIL import Image, ImageTk")
 
 ### How can the application be started
-```python.exe main_app.py``` => Start the application
+=> Start the application "main_app.py" with the "Run Python File" Button in Visual Studio Code
