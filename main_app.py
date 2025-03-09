@@ -5,7 +5,7 @@ from PIL import Image, ImageTk
 
 # Funktion zur Aktualisierung von Datum und Uhrzeit
 def update_time():
-    current_time = strftime('%Y-%m-%d %H:%M:%S')
+    current_time = strftime('%d-%m-%Y %H:%M:%S')
     time_label.config(text=current_time)
     window.after(1000, update_time)
 
@@ -19,7 +19,7 @@ window.title("Klippy 5")
 window.geometry("500x768")
 
 # Hintergrundbild laden und skalieren
-original_image = Image.open("klippy5/img/background.jpg")
+original_image = Image.open("klippy5/img/background.png")
 background_image = original_image.resize((1024, 768), Image.LANCZOS)
 background_photo = ImageTk.PhotoImage(background_image)
 
@@ -48,12 +48,11 @@ button_texts = [
     "📝 Notizen",
     "📅 Kalender",
     "✅ To do",
-    "🤖 Frag Klippy",
     "🎵 Work Life Balance"
 ]
 
 # Platzierung der Buttons
-y_positions = [0.3, 0.4, 0.5, 0.6, 0.7, 0.8]  # Y-Positionen für die Buttons
+y_positions = [0.35, 0.45, 0.55, 0.65]  # Y-Positionen für die Buttons
 
 for text, y in zip(button_texts, y_positions):
     place_button(text, y)
@@ -63,7 +62,7 @@ style.configure("Time.TLabel", font=("Helvetica", 18, "bold"), foreground="#ffff
 
 # Zeit-Label erstellen
 time_label = ttk.Label(window, style="Time.TLabel")
-time_label.place(relx=0.5, rely=1.0, anchor='s', y=-10)  # Unten in der Mitte
+time_label.place(relx=0.5, rely=1.0, anchor='s', y=-20)  # Unten in der Mitte
 
 # Uhrzeit aktualisieren
 update_time()

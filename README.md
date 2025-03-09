@@ -24,8 +24,8 @@
     - Easter Egg
     - Reminder auf Hauptseite
 - **Weitere Dokumente:**
-  - [Konzept](https://github.com/theradun2git/klippy5)
-  - [Installation Manual](https://github.com/theradun2git/klippy5)
+  - [Konzept](https://github.com/theradun2git/klippy5/blob/main/documents/Konzept.md)
+  - [Installation Manual](https://github.com/theradun2git/klippy5/blob/main/documents/Installation%20Manual.md)
   - [Präsentation](https://github.com/theradun2git/klippy5)
 
 ## Aufgabenverteilung
