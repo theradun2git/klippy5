@@ -27,6 +27,7 @@
   - [Konzept](https://github.com/theradun2git/klippy5/blob/main/documents/Konzept.md)
   - [Installation Manual](https://github.com/theradun2git/klippy5/blob/main/documents/Installation%20Manual.md)
   - [Präsentation](https://github.com/theradun2git/klippy5)
+  - [Projektnotizen in Miro](https://github.com/theradun2git/klippy5/blob/main/documents/Projektnotizen_in_Miro.pdf)
 
 ## Aufgabenverteilung
 - **Design & Logo**: Märsu

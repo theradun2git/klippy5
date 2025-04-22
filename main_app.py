@@ -81,14 +81,20 @@ y_positions = [0.3, 0.4, 0.5, 0.6]  # Y-Positionen für die Buttons
 for (image_path, command), y in zip(button_info, y_positions):
     place_button(image_path, y, command)
 
-# Datum und Uhrzeit unten in der Mitte
+# Datum und Uhrzeit
 time_bg_image = Image.open("klippy5/img/button-timeclock.png")
 time_bg_image = time_bg_image.resize((200, 50), Image.LANCZOS)
 time_bg_image_tk = ImageTk.PhotoImage(time_bg_image)
 style.configure("Time.TLabel", font=("Arial", 12), background='black', foreground='white')
 time_label = ttk.Label(window, text="", style="Time.TLabel", image=time_bg_image_tk, compound='center')
 time_label.image = time_bg_image_tk  # Referenz speichern
-time_label.place(relx=0.50, rely=1.0, anchor='s', y=-60)  # Unten in der Mitte
+time_label.place(relx=0.50, rely=1.0, anchor='s', y=-100)  # Positioniertung unten in der Mitte
+
+# Copyright
+bottom_image = Image.open("klippy5/img/copyright.png")
+bottom_image = bottom_image.resize((225, 50), Image.LANCZOS)
+bottom_image_tk = ImageTk.PhotoImage(bottom_image)
+canvas.create_image(200, 650, image=bottom_image_tk, anchor='center')  # Position anpassen
 
 # Uhrzeit aktualisieren
 update_time()
